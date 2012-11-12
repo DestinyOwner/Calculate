@@ -8,6 +8,8 @@
 		<javac srcdir = "src" destdir = "build/classes"
 			includeantruntime = "on"/>
 	</target>
+        <target name="build.xml" >
+        </target>
 	<target name = "archive" depends = "compile">
 		<jar destfile = "dist/project.jar"
 		basedir = "build/classes"/>
